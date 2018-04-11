@@ -1,0 +1,45 @@
+body{
+	position: relative;
+}
+.div{
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	border: 1px solid #555;
+	font-size: 1.5em;
+	background-color:lightgray;	
+	display: none;
+}
+.div ul li{
+	list-style: none;
+	margin-bottom: 10px;
+}
+.div ul li a{
+	text-decoration: none;
+	cursor: pointer;
+	color: #555;
+}
+#folders{
+	height: 500px;
+	width: 80%;
+	margin: 70px auto;
+}
+#folders .iconName {
+	position: relative;
+	width: 20%;
+	height: 80px;
+	display: none;
+}
+#folders .iconName i{
+	position: absolute;
+	font-size: 3em;
+	display: block;
+	left: 45%;
+	transform: translateX(-50%);
+}
+#folders .iconName h5{
+	position: absolute;
+	bottom: 0;
+	left: 45%;
+	transform: translateX(-50%);
+}
